@@ -59,6 +59,7 @@ FRESH to JSON Resume conversion routines.
         social: sect.fresh.social( src, src.basics.profiles ),
         interests: src.interests,
         testimonials: sect.fresh.testimonials( src, src.references ),
+        references_available: src.references_available,
         languages: src.languages,
         disposition: src.disposition // <--> round-trip
       };
