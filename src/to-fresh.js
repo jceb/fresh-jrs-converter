@@ -177,7 +177,8 @@ Convert JRS resume sections to FRESH.
       return {
         city: obj.city,
         region: obj.region,
-        country: obj.countryCode,
+        countrycode: obj.countryCode,
+        country: obj.country,
         code: obj.postalCode,
         address: obj.address
       };
