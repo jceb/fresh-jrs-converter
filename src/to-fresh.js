@@ -25,7 +25,10 @@ Convert JRS resume sections to FRESH.
         label: ref.label,
         class: ref.class,// round-trip
         image: ref.picture,
-        brief: ref.summary
+        brief: ref.summary,
+        familystatus: ref.familyStatus,
+        birthdate: ref.birthDate,
+        nationality: ref.nationality
       };
     },
 
