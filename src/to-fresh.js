@@ -79,7 +79,8 @@ Convert JRS resume sections to FRESH.
             url: edu.website || edu.url || undefined,
             summary: edu.summary || "",
             area: edu.area,
-            studyType: edu.studyType
+            studyType: edu.studyType,
+            highlights: edu.highlights
           };
         })
       } : undefined;

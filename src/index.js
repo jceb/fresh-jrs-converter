@@ -46,6 +46,7 @@ FRESH to JSON Resume conversion routines.
 
       return {
         name: src.basics.name,
+        signature: src.basics.signature,
         info: sect.fresh.info( src, src.basics ),
         contact: sect.fresh.contact( src, src.basics ),
         meta: sect.fresh.meta( src, src.meta ),
